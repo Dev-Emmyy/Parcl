@@ -262,9 +262,10 @@ export default function Home() {
           </div>
         ))}
       </div>
+      </div>
 
-      <div className='px-4 sm:px-12 py-4 sm:py-8'>
-        <Image src={logo} width={100} height={100} alt='logo' className="w-20 sm:w-auto"/>
+      <div className='sm:px-12 py-4 sm:py-8'>
+        <Image src={logo} width={100} height={100} alt='logo' className="sm:w-auto"/>
         <p className='my-2 sm:my-4 text-xs sm:text-sm text-[#bebebe]'>Trading digital currency entails significant risk and is not appropriate for all users. Digital currency values are not static and fluctuate due to market changes. Parcl does not provide financial advice or accept liability for any loss or damages.</p>
         <div className='flex flex-wrap items-center gap-2 sm:gap-5 text-xs sm:text-sm'>
           <p>Parcl V3 Docs</p>
@@ -284,7 +285,6 @@ export default function Home() {
           <FaDiscord className='text-base sm:text-lg' />
           <FaXTwitter className='text-xs sm:text-sm'/>
         </div>
-      </div>
       </div>
     </div>
   );
